@@ -1,0 +1,7 @@
+a=float(input("enter 1 number:"))
+b=float(input("enter 2 number:"))
+print(f"the sum of two numbers is :{a+b}")
+print(f"the difference of two numbers is :{a-b}")  
+print(f"the product of two numbers is :{a*b}")
+print(f"the division of two numbers is :{a/b}")
+print(f"the modulus of two numbers is :{a%b}")

@@ -1,0 +1,8 @@
+a=input("enter your name:")
+b=int(input("enter your age :"))
+c=input("enter your city where your arwe belong:")
+d=int(input("enter your mobile number:"))
+print(f"your names is {a}")
+print(f"your age is {b}")
+print(f"your city is {c}")
+print(f"your mobile number is {d}")
