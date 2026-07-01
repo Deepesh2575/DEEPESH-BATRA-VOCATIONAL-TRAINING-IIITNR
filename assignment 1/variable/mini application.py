@@ -1,0 +1,11 @@
+a=input("enter the account holder name: ")
+b=int(input ("enter the account number: "))
+c=float(input("enter current balance: "))
+d=float(input("enter the amount to be deposited:"))
+e=c+d
+print("the new balanced is :",e)
+print("the data type of account holder name is :",type(a))
+print("the data type of account number is :",type(b))
+print("the data type of current balance is :",type(c))
+print("the data type of deposited amount is :",type(d))
+print("the data type of new balance is :",type(e))
