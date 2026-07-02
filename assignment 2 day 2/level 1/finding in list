@@ -1,0 +1,4 @@
+a = ["c", "c++", "java", "python", "rust"]
+
+if "python" in a:
+    print(a.index("python"))
