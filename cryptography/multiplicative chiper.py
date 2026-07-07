@@ -34,7 +34,7 @@ def decryt(c,k):
     for i in range(len(c)):
         char = c[i]
         if char.isupper():
-                result += chr(((ord(char) - ord('A')) * f) % 26 + ord('A'))
+            result += chr(((ord(char) - ord('A')) * f) % 26 + ord('A'))
         elif char.islower():
             result += chr(((ord(char) - ord('A')) * f) % 26 + ord('A'))
         else:
